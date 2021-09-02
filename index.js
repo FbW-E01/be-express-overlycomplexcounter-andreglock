@@ -19,7 +19,7 @@ app.post('/dec', (req, res) => {
 
 app.post('/die', (req, res) => {
     setTimeout(() => {
-        console.log('Now!');
+        console.log('Dying Now!');
         killServer(server);
     }, 500)
     res.send(`Server will die.\n`);
