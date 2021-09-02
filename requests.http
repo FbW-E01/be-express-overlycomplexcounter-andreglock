@@ -1,0 +1,14 @@
+GET http://localhost:3420/
+
+###
+
+POST http://localhost:3420/inc
+
+###
+
+POST http://localhost:3420/dec
+
+###
+
+POST http://localhost:3420/die
+
